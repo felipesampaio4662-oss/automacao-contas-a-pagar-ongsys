@@ -1,0 +1,97 @@
+{
+  "_comentario": "Nunca coloque usuario, senha ou codigo de acesso neste arquivo. O login e sempre manual no navegador.",
+
+  "ongsys_url": "https://www.ongsys.com.br/app/index.php/contas-pagar/",
+
+  "contas_pagadoras": {
+    "1": "CAIXINHA GERAL",
+    "2": "SANTANDER AG 0001 C/C 11.111111-1",
+    "3": "SANTANDER AG 0001 C/C 22.222222-2 ECSP",
+    "6": "BANCO ITAU 12345-6 SEDE",
+    "18": "Banco Digital 000001",
+    "38": "ARREDONDAMENTO",
+    "40": "ITAU 11111-1 ESCOLAS",
+    "42": "ITAU 22222-2 REDES",
+    "45": "ITAU - CC 33333-3 REGIONAIS",
+    "49": "CDB DI ITAU - SEDE",
+    "55": "PREPAGO - PRINCIPAL",
+    "63": "PREPAGO CARTAO 0001",
+    "64": "PREPAGO CARTAO 0002",
+    "65": "PREPAGO - 0003",
+    "66": "PRE PAGO - 0004"
+  },
+  "contas_cartao": [
+    "65",
+    "66"
+  ],
+  "conta_pagadora_padrao": "",
+
+  "cores_pendentes": ["FFFFFF99"],
+  "cores_ja_lancadas": ["FFFFFFCC"],
+
+  "ignorar_fornecedores": [
+    "TRANSFERENCIA ENTRE CONTAS",
+    "RECARGA CARTAO PREPAGO",
+    "APLICACAO CDB",
+    "RESGATE APLICACAO",
+    "RENDIMENTO APLICACAO",
+    "RECEBIMENTO DE RECURSOS",
+    "IRRF FOLHA",
+    "TARIFA BANCARIA"
+  ],
+  "ignorar_categorias": ["RECEITAS_DIVERSAS"],
+  "ignorar_retencoes": ["IRRF", "PCC", "CSRF", "INSS RETIDO", "ISS RETIDO"],
+
+  "fornecedores_varejo": [
+    "PAPELMAIS",
+    "GIMBA",
+    "LOJA VIRTUAL",
+    "TOK STOK",
+    "TOK&STOK",
+    "CACAU SHOW",
+    "SUPERMERCADO BOM PRECO",
+    "HORTIFRUTI DA VILA"
+  ],
+
+  "apelidos_fornecedores": {
+    "_exemplo": "Use NOME NA PLANILHA: NOME EXATO CADASTRADO NO ONGSYS"
+  },
+
+  "codigos_subprojeto_por_fornecedor": {
+    "_exemplo": "Use NOME DO FORNECEDOR: 2.2.4.02 para forcar um codigo conhecido"
+  },
+
+  "vencimento_igual_efetivacao": [],
+
+  "tipos_despesa": {
+    "servico": "Contratação de Serviço(s)",
+    "imposto": "Pagamento de Impostos",
+    "produto": "Compra de Produto(s)",
+    "outros": "Outros"
+  },
+
+  "tipos_documento": {
+    "NF": "Nota Fiscal",
+    "BOLETO": "Boleto",
+    "RECIBO": "Recibo",
+    "FATURA": "Fatura",
+    "RPA": "Outros"
+  },
+
+  "tipos_pagamento": {
+    "FGTS": "FGTS",
+    "IPTU": "Tributos Municipais",
+    "PIX": "PIX",
+    "BOLETO": "Boleto Simples de Outros Bancos"
+  },
+
+  "meio_pagamento_padrao": "Internet Banking",
+
+  "limite_titulos_por_execucao": 25,
+  "limite_valor_total": "250000.00",
+  "alerta_valor_titulo": "50000.00",
+  "semelhanca_minima_fornecedor": "0.75",
+  "tolerancia_conciliacao": "0.01",
+  "timeout_ms": 15000,
+  "manter_navegador_visivel": true
+}

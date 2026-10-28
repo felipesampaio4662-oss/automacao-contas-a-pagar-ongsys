@@ -1,0 +1,48 @@
+# Dados e segredos: nada disso pode ser compartilhado.
+config.json
+perfil_ongsys/
+evidencias/
+relatorios/
+checkpoint.json
+checkpoint*.json
+backups/
+*.xlsx
+*.xlsm
+*.csv
+
+# Scripts de conclusão manual (contêm IDs reais)
+concluir_caju.py
+concluir_pendentes.py
+concluir_caju.bat
+concluir_pendentes.bat
+
+# Ambiente
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.tmp
+
+# Logs e capturas
+*.png
+*.log
+
+# Listas de pendencias e atalhos gerados (contem nomes, valores e IDs reais)
+PENDENCIAS_*.md
+marcar_baixas_conferidas.bat
+
+# Documentos de trabalho com dados reais de fornecedores (ficam so neste computador)
+HANDOVER.md
+VERSAO_PILOTO.txt
+
+# Pastas temporarias de testes
+.pytest_*/
+.test_tmp_*/
+
+# Qualquer outro arquivo de dados ou documento (o exemplo de configuracao vai)
+*.json
+!config.example.json
+*.pptx
+*.docx
+*.pdf
+*.zip
